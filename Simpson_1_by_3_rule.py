@@ -6,7 +6,7 @@ def y_function(x):
 def main():
     
     no_of_steps = 50;
-    x_values = np.linspace(-4,4, no_of_steps)
+    x_values = np.linspace(-4,4, no_of_steps+1)
     y_values = np.round(y_function(x_values), 4)
     
     integral = 0
