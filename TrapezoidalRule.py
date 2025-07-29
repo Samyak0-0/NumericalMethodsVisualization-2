@@ -1,9 +1,7 @@
-import matplotlib.pyplot as plt
 import numpy as np
 
 def y_function(x):
     return np.sin(x)/np.exp(x)
-    
 
 def main():
     
@@ -22,7 +20,7 @@ def main():
     integral /= 2
     
         
-    print(f"\nFrom Trapezoidal Rule, I = ∫sinx/e^x from 0 to π is {integral:.4f}.\n")
+    print(f"\nFrom Trapezoidal Rule, I = ∫sinx/e^x dx from 0 to π is {integral:.4f}.\n")
 
 if __name__ == "__main__":
     main()
