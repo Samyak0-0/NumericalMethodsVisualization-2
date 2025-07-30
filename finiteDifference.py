@@ -24,7 +24,7 @@ def main():
     y[1:no_of_intervals] = y_inner
 
     for xi, yi in zip(x_values, y):
-        print(f"x = {xi:.1f}, y = {yi:.6f}")
+        print(f"x = {xi:.1f}, y = {yi:.4f}")
     
 if __name__ == "__main__":
     main()
